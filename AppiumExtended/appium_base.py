@@ -72,6 +72,3 @@ class AppiumBase(object):
     def is_running(self):
         return self.driver.is_running()
 
-    def get_session(self):
-        self.logger.debug("get_session(self)")
-        self.logger.debug(self.driver.get_session())

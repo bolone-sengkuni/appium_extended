@@ -48,10 +48,8 @@ class AppiumNavigator:
             raise ValueError(f"No path found from {current_page} to {destination_page}")
 
         # Выполняем навигацию, следуя найденному пути
-        self.perform_navigation(path)
+        self.perform_navigation(path, timeout)
 
-        # Ожидаем, пока не появится изображение целевой страницы
-        self.app.wait_for(image=destination_page.page_images, timeout=timeout)
 
     def find_path(self, start_page: Any, target_page: Any) -> Optional[List[Any]]:
         """
@@ -98,7 +96,7 @@ class AppiumNavigator:
         # Возвращаем None, если путь не найден
         return None
 
-    def perform_navigation(self, path: List[Any]) -> None:
+    def perform_navigation(self, path: List[Any], timeout: int = 55) -> None:
         """
         Выполняет навигацию по заданному пути.
 
@@ -122,6 +120,8 @@ class AppiumNavigator:
                 transition_method = current_page.edges[next_page]
                 # Выполняем переход
                 transition_method()
+                # Ожидаем, пока не появится изображение целевой страницы
+                self.app.wait_for(image=next_page.page_images, timeout=timeout)
             except KeyError as e:
                 # В случае ошибки выводим сообщение о неудачном переходе
                 self.logger.error("perform_navigation() Не найден способ перехода")
