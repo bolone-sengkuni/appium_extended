@@ -1,3 +1,4 @@
 /dist/
 /debug.py
 /venv/
+/pylintrc

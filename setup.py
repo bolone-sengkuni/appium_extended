@@ -1,5 +1,12 @@
 from setuptools import setup, find_packages
 
+# Общее описание пакета
+long_description = '''
+An extension library for adding ease of use to Appium-Python-Client.
+
+AppiumExtended is a collection of utilities and convenience functions designed to enhance the usage of Appium-Python-Client for mobile app automation testing. It provides additional functionalities and abstractions to simplify the testing process.
+'''
+
 setup(
     name='AppiumExtended',
     version='0.1.3',
@@ -20,6 +27,9 @@ setup(
         'numpy~=1.25.1',
         'selenium~=4.10.0',
     ],
+    # Добавляем описание в setup()
+    long_description=long_description,
+    long_description_content_type='text/plain',  # Указываем тип контента (обычный текст)
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
@@ -29,4 +39,3 @@ setup(
         'Programming Language :: Python :: 3.9',
     ],
 )
-
