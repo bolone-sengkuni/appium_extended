@@ -16,7 +16,9 @@ class AppiumServer(object):
 
     def start(self) -> bool:
         self.logger.info("Start Appium server")
-        cmd = f'appium server -ka 800 --log-level {self.log_level} --use-plugins=device-farm,appium-dashboard -p {self.port} -a 0.0.0.0 -pa /wd/hub --plugin-device-farm-platform=android'
+        cmd = f'appium server -ka 800 --log-level {self.log_level} --log logs/appium_log.txt --log-timestamp ' \
+              f'--use-plugins=device-farm,appium-dashboard -p {self.port} -a 0.0.0.0 -pa /wd/hub ' \
+              f'--plugin-device-farm-platform=android'
         try:
             subprocess.Popen(cmd, shell=True)
             return True

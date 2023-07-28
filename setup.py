@@ -38,4 +38,5 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
     ],
+    url='https://github.com/molokov-klim/appium_extended',
 )
