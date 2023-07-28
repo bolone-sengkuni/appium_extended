@@ -1,3 +1,5 @@
+LICENSE
+README.md
 setup.py
 AppiumExtended/__init__.py
 AppiumExtended/appium_base.py

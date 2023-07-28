@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='AppiumExtended',
-    version='0.0.2',
+    version='0.1.3',
     description='An extension library for adding ease of use Appium-Python-Client',
-    author='open source community',
+    author='molokov-klim',
     packages=find_packages(),
     install_requires=[
         'Appium-Python-Client==2.11.1',

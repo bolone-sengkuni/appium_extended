@@ -390,7 +390,7 @@ def tap(x, y):
         bool: True, если команда была успешно выполнена, False в противном случае.
     """
     # Формируем команду для выполнения нажатия по указанным координатам с использованием ADB
-    command = ['adb', 'shell', 'input', 'tap', x, y]
+    command = ['adb', 'shell', 'input', 'tap', str(x), str(y)]
     try:
         # Выполняем команду
         subprocess_run(command)
