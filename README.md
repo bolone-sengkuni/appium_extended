@@ -13,18 +13,144 @@ appium plugin install --source=npm appium-dashboard
 
 # Содержание
 
-- class AppiumExtended
+### class AppiumExtended
 
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-connect
 
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-disconnect
 
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_running
 
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element
 
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-find_and_get_element
 
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_image_coordinates
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_inner_image_coordinates
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_many_coordinates_of_image
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_text_coordinates
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_screenshot_as_base64_decoded
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element_contains
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements_contains
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_element_within_screen
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_text_on_screen
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_image_on_the_screen
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_top_to_bottom
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_bottom_to_top
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_right_to_left
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_left_to_right
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_for
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_for_not
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_return_true
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-draw_by_coordinates
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-input_by_virtual_keyboard
+
+### class WebElementExtended
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_attributes
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-click
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-double_click
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-click_and_move
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_tap
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_multi_tap
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_swipe
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-double_tap
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap_and_move
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_down
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_up
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_to_bottom
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_to_top
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_until_find
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_parent
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_parents
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_sibling
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_siblings
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_cousin
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_cousins
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_contains
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-zoom
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-unzoom
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_center
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_coordinates
+
+###  class AppiumServer
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-start
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_alive
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-stop
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_until_alive
+
+### class `AppiumNavigator`
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-add_page
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-navigate
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-find_path
+
+https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-perform_navigation
 
 
 # class AppiumExtended
 
-## Метод: `connect(capabilities: dict)`
+## Метод: `connect()`
 
 Метод `connect` выполняет подключение к устройству на основе заданных возможностей или свойств, передаваемых в формате словаря.
 
@@ -118,7 +244,7 @@ else:
 Метод может генерировать исключения, в случае если `self.driver` не инициализирован. Также исключения могут быть сгенерированы внутренними вызовами метода `is_running` из объекта `self.driver`, например, при проблемах сети или сервера.
 
 
-## Метод: `get_element(locator, by, value, timeout_elem, timeout_method, elements_range, contains)`
+## Метод: `get_element()`
 
 Этот метод обеспечивает поиск элемента в текущей структуре DOM. Метод должен получать либо локатор, либо значения `by` и `value`.
 
@@ -192,7 +318,7 @@ element = app.find_and_get_element(locator={'id': 'element_id'})
 
 
 
-## Метод: `get_elements(locator, by, value, timeout_elements, timeout_method, elements_range, contains)`
+## Метод: `get_elements()`
 
 Этот метод обеспечивает поиск элементов в текущей структуре DOM. Метод может получать либо локатор, либо пару значений `by` и `value`.
 
@@ -232,7 +358,7 @@ elements = app.get_elements(by=By.ID, value="ru.sigma.app.debug:id/backButton")
 Метод может генерировать исключения, в случае если введены некорректные аргументы или возникают ошибки при обработке элементов (например, `NoSuchElementException`, `TimeoutException` или `WebDriverException`).
 
 
-## Метод: `get_image_coordinates(image, full_image, threshold)`
+## Метод: `get_image_coordinates()`
 
 Этот метод находит координаты наиболее вероятного совпадения частичного изображения в полном изображении. Используется для поиска элементов или участков интерфейса на экране по изображению.
 
@@ -263,7 +389,7 @@ coords = app.get_image_coordinates(image="/path/to/partial/image.png", full_imag
 
 Метод может генерировать исключения при обработке изображений или при работе с файлами.
 
-## Метод: `get_inner_image_coordinates(outer_image_path, inner_image_path, threshold)`
+## Метод: `get_inner_image_coordinates()`
 
 Этот метод сначала находит изображение на экране (внешнее изображение), а затем находит другое изображение (внутреннее изображение) внутри обнаруженного изображения.
 
@@ -294,7 +420,7 @@ coords = app.get_inner_image_coordinates(outer_image_path="/path/to/outer/image.
 Метод может генерировать исключения при обработке изображений или при работе с файлами.
 
 
-## Метод: `get_many_coordinates_of_image(image, full_image, cv_threshold, coord_threshold)`
+## Метод: `get_many_coordinates_of_image()`
 
 Этот метод находит все вхождения частичного изображения внутри полного изображения.
 
@@ -328,7 +454,7 @@ matches = app.get_many_coordinates_of_image(image="/path/to/image.png", full_ima
 Метод может генерировать исключения при обработке изображений или при работе с файлами.
 
 
-## Метод: `get_text_coordinates(text, language, image, ocr)`
+## Метод: `get_text_coordinates()`
 
 Этот метод возвращает координаты области, содержащей указанный текст на предоставленном изображении или снимке экрана. 
 
@@ -428,7 +554,7 @@ screenshot = app.get_screenshot_as_base64_decoded()
 В текущей реализации метод возвращает исключение `NotImplementedError` с сообщением "This method is not implemented yet". Это означает, что метод ещё не реализован. Предполагается, что в будущем он будет реализован для поиска и возврата всех родительских элементов, содержащих определённые дочерние элементы.
 
 
-## Метод: `_is_element_within_screen()`
+## Метод: `is_element_within_screen()`
 
 Этот метод проверяет, находится ли заданный элемент полностью на экране.
 
@@ -445,7 +571,7 @@ screenshot = app.get_screenshot_as_base64_decoded()
 
 ```python
 # Допустим, мы хотим проверить, находится ли элемент с id 'some_id' на видимой части экрана.
-is_visible = app._is_element_within_screen(locator=('id', 'some_id'))
+is_visible = app.is_element_within_screen(locator=('id', 'some_id'))
 ```
 
 ### Дополнительная информация
@@ -537,7 +663,7 @@ app.tap(image='button.png')
 
 Этот метод использует внутренний метод `_extract_point_coordinates_by_typing()` для получения координат точки, по которой следует нажать, если был передан `locator` или `image`. Если указано изображение, метод будет ожидать его появления на экране в течение указанного времени ожидания, прежде чем выполнить действие "тап". Затем вызывается внутренний метод `_tap()` для выполнения действия "тап" по заданным координатам.
 
-### Метод: `swipe()`
+## Метод: `swipe()`
 
 Этот метод выполняет свайп (перетаскивание) элемента или изображения на экране.
 
@@ -580,7 +706,7 @@ app.swipe(start_position='image.png', end_position=(300, 400))
 
 Метод обязательно должен принимать либо end_postition, либо direction и distance
 
-### Метод: `swipe_top_to_bottom()`
+## Метод: `swipe_top_to_bottom()`
 
 Этот метод выполняет свайп (перетаскивание) с верхней части экрана к нижней.
 
@@ -605,7 +731,7 @@ app.swipe(start_position='image.png', end_position=(300, 400))
 app.swipe_top_to_bottom()
 ```
 
-### Метод: `swipe_bottom_to_top()`
+## Метод: `swipe_bottom_to_top()`
 
 Этот метод выполняет свайп (перетаскивание) с нижней части экрана к верхней.
 
@@ -632,7 +758,7 @@ app.swipe_bottom_to_top()
 ```
 
 
-### Метод: `swipe_right_to_left()`
+## Метод: `swipe_right_to_left()`
 
 Этот метод выполняет свайп (перетаскивание) с правой части экрана к левой.
 
@@ -657,7 +783,7 @@ app.swipe_bottom_to_top()
 app.swipe_right_to_left()
 ```
 
-### Метод: `swipe_left_to_right()`
+## Метод: `swipe_left_to_right()`
 
 Этот метод выполняет свайп (перетаскивание) с левой части экрана к правой.
 
@@ -683,7 +809,7 @@ app.swipe_left_to_right()
 ```
 
 
-### Метод: `wait_for()`
+## Метод: `wait_for()`
 
 Этот метод ожидает появления на экране указанного локатора или изображения.
 
@@ -717,7 +843,7 @@ app.wait_for(locator=[('id', 'button1'), ('id', 'button2')], image=['image1.png'
 ```
 
 
-### Метод: `wait_for_not()`
+## Метод: `wait_for_not()`
 
 Этот метод ожидает, пока указанный локатор или изображение не исчезнет с экрана или из DOM.
 
@@ -746,7 +872,7 @@ app.wait_for_not(locator=[('id', 'button1'), ('id', 'button2')], image=['image1.
 ```
 
 
-### Метод: `wait_return_true()`
+## Метод: `wait_return_true()`
 
 Этот метод ожидает, когда другой метод вернет True.
 
@@ -773,7 +899,7 @@ app.wait_return_true(obj.is_connected, timeout=30)
 Обратите внимание, что это статический метод, что означает, что он принадлежит классу, а не экземпляру класса. Это значит, что вам не нужен экземпляр класса, чтобы вызвать этот метод. Вы можете просто вызвать его на самом классе, как показано в примере выше.
 
 
-### Метод: `draw_by_coordinates()`
+## Метод: `draw_by_coordinates()`
 
 Этот метод рисует прямоугольник на указанном изображении или скриншоте экрана. Прямоугольник задается координатами или верхней левой и нижней правой точками. Результирующее изображение сохраняется по указанному пути.
 
@@ -800,7 +926,7 @@ appium_extended.draw_by_coordinates(image=image, coordinates=(123, 123, 123, 123
 В этом примере мы делаем скриншот экрана, рисуем на нем прямоугольник с указанными координатами и сохраняем полученное изображение в директории "pictures".
 
 
-### Метод: `input_by_virtual_keyboard()`
+## Метод: `input_by_virtual_keyboard()`
 
 Этот метод пока не реализован. Ожидается, что он будет использоваться для поиска и возврата родительского элемента, который содержит определённый дочерний элемент.
 
@@ -827,7 +953,7 @@ appium_extended.draw_by_coordinates(image=image, coordinates=(123, 123, 123, 123
 
 `WebElementExtended` - это класс, расширяющий базовый класс `WebElement` дополнительными возможностями. Он объединяет несколько классов, предоставляя различные методы взаимодействия с веб-элементами.
 
-### Метод: `get_element()`
+## Метод: `get_element()`
 
 Этот метод извлекает элемент из другого элемента. Должен принимать как минимум либо локатор, либо значения параметров by и value.
 
@@ -867,7 +993,7 @@ inner_element = element.get_element(locator=element, timeout_elem=20)
 inner_element = element.get_element(locator={'text': 'foo'}, elements_range={'class':'android.widget.FrameLayout', 'package':'ru.app.debug'}, timeout_elem=40)
 ```
 
-### Метод: `get_attributes()`
+## Метод: `get_attributes()`
 
 Этот метод получает атрибуты элемента. Если хотя бы один из желаемых атрибутов не найден, метод возвращает все атрибуты элемента.
 
@@ -889,7 +1015,7 @@ attributes = element.get_attributes(['text', 'bounds', 'class'])
 all_attributes = element.get_attributes()
 ```
 
-### Метод: `click()`
+## Метод: `click()`
 
 Этот метод осуществляет нажатие на заданный элемент.
 
@@ -916,7 +1042,7 @@ decorator_args = {"timeout_window": 5, "tries": 5}
 element.click(duration=0, wait=True, decorator_args=decorator_args)
 ```
 
-### Метод: `double_click()`
+## Метод: `double_click()`
 
 Этот метод выполняет двойное нажатие (double click) на заданный элемент.
 
@@ -945,7 +1071,7 @@ decorator_args = {"timeout_window": 7, "tries": 3}
 element.double_click(wait=True, decorator_args=decorator_args)
 ```
 
-### Метод: `click_and_move()`
+## Метод: `click_and_move()`
 
 Этот метод нажимает левую кнопку мыши, перемещает курсор к указанной цели и отпускает кнопку.
 
@@ -979,7 +1105,7 @@ element.click_and_move(direction=90, distance=100)
 
 Целью перемещения может быть WebElement, абсолютные координаты (x, y) или направление и расстояние. Если предоставлены направление и расстояние, функция вычисляет целевую позицию на основе вектора, определенного этими значениями. Если предоставлены абсолютные координаты (x, y), курсор перемещается в указанные позиции. Если предоставлен локатор, функция перемещается к найденному элементу на веб-странице.
 
-### Метод: `adb_tap()`
+## Метод: `adb_tap()`
 
 Deprecated!
 Метод устарел. Будет удален в следующих версиях.
@@ -1018,7 +1144,7 @@ element.adb_tap(decorator_args={"timeout_window": 5, "tries": 5}, wait=True)
 
 ADB (Android Debug Bridge) - это инструмент командной строки, который используется для взаимодействия с устройством. В данном контексте он используется для симуляции взаимодействия пользователя с интерфейсом Android.
 
-### Метод: `adb_multi_tap(decorator_args: dict = None, wait: bool = False)`
+## Метод: `adb_multi_tap()`
 
 Этот метод выполняет многократные нажатия (обычно два или три) на элемент, используя ADB (Android Debug Bridge). 
 
@@ -1043,7 +1169,7 @@ element.adb_multi_tap(decorator_args={"timeout_window": 10, "tries": 3}, wait=Tr
 
 ADB (Android Debug Bridge) - это инструмент командной строки, который используется для взаимодействия с устройством. В данном контексте он используется для симуляции взаимодействия пользователя с интерфейсом Android. Многократные нажатия могут быть полезны для выделения текста или активации специальных функций в приложении.
 
-### Метод: `adb_swipe()`
+## Метод: `adb_swipe()`
 
 Этот метод выполняет свайп (прокрутку) на элементе или по определенному направлению, используя ADB (Android Debug Bridge). 
 
@@ -1076,7 +1202,7 @@ element.adb_swipe(direction=180, distance=500, duration=1)
 
 ADB (Android Debug Bridge) - это инструмент командной строки, который используется для взаимодействия с устройством. В данном контексте он используется для симуляции взаимодействия пользователя с интерфейсом Android. Прокрутка может быть полезной для навигации по странице или меню приложения.
 
-### Метод: `tap()`
+## Метод: `tap()`
 
 Этот метод выполняет нажатие (tap) на центре данного веб-элемента.
 
@@ -1108,7 +1234,7 @@ element.tap(duration=500, decorator_args={"timeout_window": 5, "tries": 5}, wait
 
 Методы `_tap`, `_tap_to_element_and_wait`, `_tap_to_element` и `__tap` используются внутри этого метода для выполнения нажатия и обработки различных сценариев, связанных с ожиданием результатов и обработкой исключений.
 
-### Метод: `double_tap()`
+## Метод: `double_tap()`
 
 Этот метод выполняет двойное нажатие (double tap) на центре данного веб-элемента.
 
@@ -1137,7 +1263,7 @@ element.double_tap(decorator_args={"timeout_window": 5, "tries": 5}, wait=True, 
 
 Методы `_double_tap`, `_double_tap_to_element_and_wait`, `_double_tap_to_element` и `__double_tap` используются внутри этого метода для выполнения двойного нажатия и обработки различных сценариев, связанных с ожиданием результатов и обработкой исключений.
 
-### Метод: `tap_and_move()`
+## Метод: `tap_and_move()`
 
 Этот метод выполняет операцию "нажать и переместить" на веб-элементе или на указанных координатах.
 
@@ -1171,7 +1297,7 @@ element.tap_and_move(direction=180, distance=200)
 
 Метод `_tap_and_move` используется внутри этого метода для выполнения нажатия и перемещения, обработки различных сценариев в зависимости от предоставленных аргументов и обработки исключений.
 
-### Метод: `get_elements()`
+## Метод: `get_elements()`
 
 Этот метод обеспечивает поиск элементов в элементе.
 
@@ -1205,7 +1331,7 @@ elements = app.get_elements(locator='/path/to/file/pay_agent.png')
 elements = app.get_elements(by="id", value="ru.sigma.app.debug:id/backButton")
 ```
 
-### Метод: `scroll_down()`
+## Метод: `scroll_down()`
 
 Этот метод выполняет скроллинг элемента вниз. Тап и ведение от нижнего внутреннего элемента до верхнего внутреннего элемента.
 
@@ -1233,7 +1359,7 @@ app.scroll_down(locator=element, duration=1000)
 app.scroll_down(locator={'class': 'foo'}, duration=1000)
 ```
 
-### Метод: `scroll_up()`
+## Метод: `scroll_up()`
 
 Этот метод выполняет скроллинг элемента вверх.  Тап и ведение от верхнего внутреннего элемента до нижнего внутреннего элемента.
 
@@ -1261,7 +1387,7 @@ app.scroll_up(locator=element, duration=1000)
 app.scroll_up(locator={'class': 'foo'}, duration=1000)
 ```
 
-### Метод: `scroll_to_bottom()`
+## Метод: `scroll_to_bottom()`
 
 Этот метод выполняет скроллинг элемента до самого нижнего положения.
 
@@ -1288,7 +1414,7 @@ app.scroll_to_bottom(locator=element, timeout_method=120)
 app.scroll_to_bottom(locator={'class': 'foo'}, timeout_method=120)
 ```
 
-### Метод: `scroll_to_top()`
+## Метод: `scroll_to_top()`
 
 Этот метод выполняет скроллинг элемента до самого верхнего положения.
 
@@ -1316,7 +1442,7 @@ app.scroll_to_top(locator={'class': 'foo'}, timeout_method=120)
 ```
 
 
-### Метод: `scroll_until_find()`
+## Метод: `scroll_until_find()`
 
 Этот метод выполняет скроллинг элемента вниз и вверх, пока не найдет элемент, указанный в аргументе `locator`, или пока не истечет таймаут.
 
@@ -1345,7 +1471,7 @@ app.scroll_until_find(locator=element_to_find, roll_locator=element_to_scroll, t
 app.scroll_until_find(locator={'class': 'target'}, roll_locator={'class': 'foo'}, timeout_method=120)
 ```
 
-### Метод: `get_parent()
+## Метод: `get_parent()
 
 Этот метод возвращает первый родительский элемент текущего элемента в дереве DOM.
 
@@ -1364,7 +1490,7 @@ app.scroll_until_find(locator={'class': 'target'}, roll_locator={'class': 'foo'}
 parent_element = app.get_parent()
 ```
 
-### Метод: `get_parents()
+## Метод: `get_parents()
 
 Этот метод возвращает все родительские элементы текущего элемента в дереве DOM, начиная от ближайшего и до корневого элемента.
 
@@ -1383,7 +1509,7 @@ parent_element = app.get_parent()
 parent_elements = app.get_parents()
 ```
 
-### Метод: `get_sibling()
+## Метод: `get_sibling()
 
 Этот метод возвращает соседний (родственный) элемент текущего элемента, соответствующий заданным атрибутам. Возвращаются только непосредственные соседи (братья или сестры) в пределах того же родительского элемента.
 
@@ -1407,7 +1533,7 @@ sibling_element = app.get_sibling({'class': 'myClass'})
 sibling_element = app.get_sibling({'name': 'myName'}, contains=True)
 ```
 
-### Метод: `get_siblings()
+## Метод: `get_siblings()
 
 Этот метод возвращает все соседние (родственные) элементы текущего элемента. Возвращаются только непосредственные соседи (братья или сестры) в пределах того же родительского элемента.
 
@@ -1426,7 +1552,7 @@ sibling_element = app.get_sibling({'name': 'myName'}, contains=True)
 sibling_elements = app.get_siblings()
 ```
 
-### Метод: `get_cousin()
+## Метод: `get_cousin()
 
 Этот метод предназначен для поиска "кузена" текущего элемента в дереве DOM. Кузен в данном контексте определяется как элемент, находящийся на одинаковом уровне вложенности от общего предка.
 
@@ -1449,7 +1575,7 @@ sibling_elements = app.get_siblings()
 cousin_element = app.get_cousin(ancestor={'class': 'parent-class'}, cousin={'class': 'desired-class'})
 ```
 
-### Метод: `get_cousins()
+## Метод: `get_cousins()
 
 Этот метод предназначен для поиска "кузенов" текущего элемента в дереве DOM. Кузен в данном контексте определяется как элемент, находящийся на одинаковом уровне вложенности от общего предка.
 
@@ -1472,7 +1598,7 @@ cousin_element = app.get_cousin(ancestor={'class': 'parent-class'}, cousin={'cla
 cousin_elements = app.get_cousins(ancestor={'class': 'parent-class'}, cousin={'class': 'desired-class'})
 ```
 
-### Метод: `is_contains()
+## Метод: `is_contains()
 
 Этот метод проверяет, содержит ли текущий элемент другой элемент, определенный локатором `locator`. 
 
@@ -1496,7 +1622,7 @@ else:
     print("Child element is not present")
 ```
 
-### Метод: `zoom()`
+## Метод: `zoom()`
 
 Вызывает `NotImplementedError` так как метод не реализован.
 Этот метод в будущем реализует функцию увеличения (zoom) на элементе страницы.
@@ -1515,7 +1641,7 @@ else:
 Метод не реализован
 ```
 
-### Метод: `unzoom()`
+## Метод: `unzoom()`
 
 Вызывает `NotImplementedError` так как метод не реализован.
 Этот метод в будущем реализует функцию увеличения (zoom) на элементе страницы.
@@ -1534,7 +1660,7 @@ else:
 Метод не реализован
 ```
 
-### Метод: `get_center() 
+## Метод: `get_center() 
 
 Этот метод вычисляет координаты центра текущего элемента страницы.
 
@@ -1555,7 +1681,7 @@ else:
     print("An error occurred while getting the center of the element.")
 ```
 
-### Метод: `get_coordinates()
+## Метод: `get_coordinates()
 
 Этот метод используется для получения координат текущего элемента веб-страницы.
 
