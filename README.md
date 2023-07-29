@@ -15,7 +15,7 @@ appium plugin install --source=npm appium-dashboard
 
 ### class AppiumExtended
 
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-connect
+[connect](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-connect)
 
 https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-disconnect
 
@@ -137,7 +137,7 @@ https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-s
 
 https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_until_alive
 
-### class `AppiumNavigator`
+### class AppiumNavigator
 
 https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-add_page
 
