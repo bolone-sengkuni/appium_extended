@@ -13,141 +13,82 @@ appium plugin install --source=npm appium-dashboard
 
 # Содержание
 
-### class AppiumExtended
-
-[connect](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-connect)
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-disconnect
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_running
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-find_and_get_element
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_image_coordinates
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_inner_image_coordinates
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_many_coordinates_of_image
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_text_coordinates
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_screenshot_as_base64_decoded
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element_contains
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements_contains
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_element_within_screen
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_text_on_screen
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_image_on_the_screen
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_top_to_bottom
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_bottom_to_top
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_right_to_left
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_left_to_right
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_for
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_for_not
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_return_true
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-draw_by_coordinates
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-input_by_virtual_keyboard
-
-### class WebElementExtended
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_attributes
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-click
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-double_click
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-click_and_move
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_tap
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_multi_tap
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_swipe
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-double_tap
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap_and_move
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_down
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_up
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_to_bottom
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_to_top
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_until_find
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_parent
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_parents
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_sibling
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_siblings
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_cousin
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_cousins
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_contains
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-zoom
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-unzoom
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_center
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_coordinates
-
-###  class AppiumServer
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-start
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_alive
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-stop
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_until_alive
-
-### class AppiumNavigator
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-add_page
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-navigate
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-find_path
-
-https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-perform_navigation
-
-
+### Класс `AppiumExtended`
+
+- [connect](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-connect)
+- [disconnect](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-disconnect)
+- [is_running](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_running)
+- [get_element](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element)
+- [find_and_get_element](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-find_and_get_element)
+- [get_elements](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements)
+- [get_image_coordinates](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_image_coordinates)
+- [get_inner_image_coordinates](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_inner_image_coordinates)
+- [get_many_coordinates_of_image](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_many_coordinates_of_image)
+- [get_text_coordinates](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_text_coordinates)
+- [get_screenshot_as_base64_decoded](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_screenshot_as_base64_decoded)
+- [get_element_contains](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element_contains)
+- [get_elements_contains](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements_contains)
+- [is_element_within_screen](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_element_within_screen)
+- [is_text_on_screen](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_text_on_screen)
+- [is_image_on_the_screen](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_image_on_the_screen)
+- [tap](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap)
+- [swipe](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe)
+- [swipe_top_to_bottom](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_top_to_bottom)
+- [swipe_bottom_to_top](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_bottom_to_top)
+- [swipe_right_to_left](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_right_to_left)
+- [swipe_left_to_right](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-swipe_left_to_right)
+- [wait_for](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_for)
+- [wait_for_not](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_for_not)
+- [wait_return_true](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_return_true)
+- [draw_by_coordinates](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-draw_by_coordinates)
+- [input_by_virtual_keyboard](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-input_by_virtual_keyboard)
+
+### Класс `WebElementExtended`
+
+- [get_element](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_element)
+- [get_attributes](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_attributes)
+- [click](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-click)
+- [double_click](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-double_click)
+- [click_and_move](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-click_and_move)
+- [adb_tap](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_tap)
+- [adb_multi_tap](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_multi_tap)
+- [adb_swipe](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-adb_swipe)
+- [tap](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap)
+- [double_tap](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-double_tap)
+- [tap_and_move](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-tap_and_move)
+- [get_elements](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_elements)
+- [scroll_down](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_down)
+- [scroll_up](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_up)
+- [scroll_to_bottom](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_to_bottom)
+- [scroll_to_top](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_to_top)
+- [scroll_until_find](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-scroll_until_find)
+- [get_parent](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_parent)
+- [get_parents](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_parents)
+- [get_sibling](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_sibling)
+- [get_siblings](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_siblings)
+- [get_cousin](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_cousin)
+- [get_cousins](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_cousins)
+- [is_contains](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_contains)
+- [zoom](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-zoom)
+- [unzoom](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-unzoom)
+- [get_center](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_center)
+- [get_coordinates](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-get_coordinates)
+
+### Класс `AppiumServer`
+
+- [start](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-start)
+- [is_alive](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-is_alive)
+- [stop](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-stop)
+- [wait_until_alive](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-wait_until_alive)
+
+### Класс `AppiumNavigator`
+
+- [add_page](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-add_page)
+- [navigate](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-navigate)
+- [find_path](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-find_path)
+- [perform_navigation](https://github.com/molokov-klim/appium_extended#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4-perform_navigation)
+
+Вы можете переходить по этим ссылкам для получения дополнительной информации о каждом методе.
 # class AppiumExtended
 
 ## Метод: `connect()`
